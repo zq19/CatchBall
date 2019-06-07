@@ -53,7 +53,7 @@ def check_paly_button(button,mouse_x,mouse_y,state):
         pygame.mouse.set_visible(False)
         state.game_active = True
         pygame.mixer.music.load(".\images\water.mp3")
-        pygame.mixer.music.play()
+        pygame.mixer.music.play(100,0)
 
 def check_game_over(ball,button_replay,button_replayyes,button_replayno,state):
     "检查球是否出界"
